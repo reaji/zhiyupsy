@@ -24,12 +24,12 @@ html, body{
 #text{
 	/*display: block;*/
 	/*width:30px;*/
-	height: 1000px;
+	/*height: 1000px;*/
 	text-align: center;
 	margin:auto;
 	font-size: 24px;
 	vertical-align: middle;
-	padding: 200px;
+	padding: 200px 10px 10px 10px;
 	color: white;
 	opacity: 1;
 	animation: showup;
