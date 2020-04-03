@@ -36,6 +36,7 @@ html, body{
 	animation: example;
     animation-duration: 4s;
     animation-timing-function: ease-out;
+    font-weight: 500;
 }
 
 
