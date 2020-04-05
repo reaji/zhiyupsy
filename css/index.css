@@ -9,7 +9,8 @@
 
 html, body{
 	margin: 0 auto;
-	height: 100%;
+	/*height: 100%;*/
+	width: 100%;
 	/*background: url(../assets/bg.svg);*/
 	/*background-image: radial-gradient(0% 65%, #00F2FE 0%, #4FACFE 70%);*/
 	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
@@ -36,8 +37,10 @@ html, body{
     animation-duration: 4s;
     animation-timing-function: ease-out;
     font-weight: 500;
-	font-family: 'source-han-serif-sc','宋体',宋体b8b体,songti sc, serif
+	font-family: 'source-han-serif-sc','宋体',宋体b8b体,songti sc, serif;
     /*display: table-cell;*/
+   /* box-shadow:  20px 20px 60px #00ced8, 
+             -20px -20px 60px #00ffff;*/
 }
 
 
@@ -69,6 +72,14 @@ html, body{
 #text{  
   padding: 50px 0 0 0;
 }
+
+#wallpaper{
+  margin: auto;
+  width: 53%;
+  padding: 10px;
+
+}
+
 
 /*@media screen and (max-width: 376px) {
 #text{  
