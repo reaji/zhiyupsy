@@ -1,6 +1,6 @@
 /** Thin */
 * {
-   font-family: 'source-han-serif-sc','宋体',宋体b8b体,songti sc, serif
+   
 }
 
 *::-webkit-scrollbar { 
@@ -36,10 +36,30 @@ html, body{
     animation-duration: 4s;
     animation-timing-function: ease-out;
     font-weight: 500;
-
+	font-family: 'source-han-serif-sc','宋体',宋体b8b体,songti sc, serif
     /*display: table-cell;*/
 }
 
+
+#wallpaper{
+	position: fixed;
+	bottom:10px;
+	right: 20px;
+	font-family: sans-serif;
+}
+
+.icon{
+	padding: 0px 5px 5px 5px;
+}
+
+.icon:hover{
+	opacity: 0.7;
+}
+
+#wallpaper-title{
+	color: white;
+	letter-spacing: 10px;
+}
 
 
 
