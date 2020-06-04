@@ -1,0 +1,363 @@
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+/** Bold */ 
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+* {
+    font-family: 'San Francisco', sans-serif; 
+}
+
+*::-webkit-scrollbar { 
+  display: none;
+}
+
+html, body{
+	margin: 0;
+	height: 100%;
+}
+
+
+#outbox{
+	position: relative;
+	max-width: 940px;
+	margin: 50px auto 0;
+	padding-top: 15px;
+	overflow-x:hidden; 
+}
+
+
+h1{
+	font-size: 26pt;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 6px;
+	margin: 0 auto;
+	color: #333333;
+}
+
+h2{
+	font-size: 18pt;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 3px;
+	margin: 0 auto;
+	color: #333333;
+}
+
+h3{
+	font-size: 14pt;
+	font-weight: 500;
+	margin: 0 auto;
+	letter-spacing: 0.6px;
+	color: #333333;
+}
+
+h4{
+	font-size: 12pt;
+	font-weight: 200;
+	text-align: center;
+	letter-spacing: 0.5px;
+	margin: 0 auto;
+	color: #666666;
+}
+
+h6{
+	font-size: 9pt;
+	font-weight: 200;
+	letter-spacing: 0.5px;
+	margin: 0 auto;
+	color: #666666;
+}
+
+p{
+	font-size: 10pt;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+  	widows: 7;
+  	color: #333333;
+}
+
+br{
+	margin: 0 0 5px 0;
+}
+
+.contactinfo{
+	margin-top: 0.5px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.year h6{
+		font-weight: 200;
+}
+
+.subtitle{
+	margin-top:0px;
+	font-weight: 500;
+	color: #999999;
+}
+
+.section{
+	margin-top:50px;
+}
+
+.number{
+	font-size: 9pt;
+}
+
+.profile{
+	margin-top:10px;
+	max-width: 600px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.contentpart{
+	/*position: relative;*/
+	left:0;
+	right: 0;
+	max-width: 854px;
+	margin: 0 auto;
+	overflow-x:hidden; 
+	
+}
+
+.content{
+	display: inline-block;
+	left:0;
+	right: 0;
+	width: 412px;
+	margin: 35px auto 0 auto;
+	vertical-align: top;
+	padding-left: 10px;
+}
+
+.tools{
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+.content .year{
+	opacity: 0;
+	width: 100px;
+	float: right;
+	text-align: center;
+}
+
+
+
+.description{
+	/*margin-bottom: 20px;*/
+}
+
+.indent{
+	text-indent: -10px;
+}
+
+.plength{
+	padding-right: 100px;
+	margin: 0 0 5px 0;
+}
+
+.language{
+	text-align: center;
+	text-indent: -10px;
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+
+a{
+	text-decoration: none;
+}
+
+button{
+	cursor: pointer;
+	margin: 10px auto 0 auto;
+	padding: 4px 6px 2px 6px; 
+	display: block;
+	border: 0 solid white;
+	border-radius: 3px;
+	background: white;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+	outline: none;
+	color:#1d1d1d;
+	font-family: 'San Francisco', sans-serif; 
+	text-align: center;
+}
+
+button:active{
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0);
+	outline:none;
+	color: grey;
+
+}
+
+
+.responsiveback{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #333333;
+  opacity: 0.8;
+  z-index: +3;
+  }
+
+.responsivenote{
+  position: fixed;
+  z-index: +4;
+  top:50%;
+  opacity: 1;
+  left: 50%;
+  color: white;
+  background: none;
+  }
+
+
+
+.name{
+	display: none;
+}
+
+@media screen and (max-width: 520px) {
+	
+	.responsiveback{
+display: none;
+  }
+
+  .responsivenote{
+display: none;
+  }
+
+#outbox{
+	margin: 0 auto 65px;
+}
+
+.name{
+	display: block;
+}
+
+}
+
+
+@media screen and (max-width: 870px) {
+
+.contentpart{
+	left:0;
+	right: 0;
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+.content .year{
+	opacity:1;
+}
+
+.content .year1{
+	display: none;
+}
+
+#outbox{
+	padding-left: 10px;
+}
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+
+#outbox{
+	padding-right: 10px;
+}
+
+.content{
+	width: 100%;
+}
+
+.content .year{
+	opacity:1;
+	width: 41px;
+	padding-right: 10px;
+}
+
+.plength{
+	padding-right: 42px;
+}
+
+.profile{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+}
+
+@media screen and (max-width: 350px) {
+
+#outbox{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.language{
+	width: 210px;
+	text-indent: -10px;
+}
+
+.profile{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+}
+
+@media screen and (max-width: 1025px) {
+
+}
+
+
+
+
+
+
+/*@media screen and (min-width: 1300px) {
+#outbox{
+    -ms-transform: scale(1.2,1.2);  IE 9 
+    -webkit-transform: scale(1.2,1.2); /* Safari 
+    transform: scale(1.2,1.2);
+  }
+
+}*/

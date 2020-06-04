@@ -1,0 +1,88 @@
+/** Thin */
+* {
+   
+}
+
+*::-webkit-scrollbar { 
+  display: none;
+}
+
+html, body{
+	margin: 0 auto;
+	/*height: 100%;*/
+	width: 100%;
+	/*background: url(../assets/bg.svg);*/
+	/*background-image: radial-gradient(0% 65%, #00F2FE 0%, #4FACFE 70%);*/
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+@keyframes showup {
+  0% {display:none ; opacity: 0;}
+  1% {display: block ; opacity: 0;}
+  100% {display: block ; opacity: 1;}
+}
+
+#text{
+	/*display: block;*/
+	/*width:30px;*/
+	/*height: 1000px;*/
+	text-align: center;
+	margin:auto;
+	font-size: 24px;
+	vertical-align: middle;
+	padding: 200px 10px 10px 10px;
+	color: white;
+	opacity: 1;
+	animation: showup;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    font-weight: 500;
+	font-family: 'source-han-serif-sc','宋体',宋体b8b体,songti sc, serif;
+    /*display: table-cell;*/
+   /* box-shadow:  20px 20px 60px #00ced8, 
+             -20px -20px 60px #00ffff;*/
+}
+
+
+#wallpaper{
+	position: fixed;
+	bottom:10px;
+	right: 20px;
+	font-family: sans-serif;
+}
+
+.icon{
+	padding: 0px 5px 5px 5px;
+}
+
+.icon:hover{
+	opacity: 0.7;
+}
+
+#wallpaper-title{
+	color: white;
+	letter-spacing: 10px;
+}
+
+
+
+
+
+@media screen and (max-width: 769px) {
+#text{  
+  padding: 50px 0 0 0;
+}
+
+/*#wallpaper{
+  margin: auto;
+  width: 53%;
+  padding: 10px;
+
+}*/
+
+
+/*@media screen and (max-width: 376px) {
+#text{  
+  padding: 50% 0 0 0;
+}*/
+
