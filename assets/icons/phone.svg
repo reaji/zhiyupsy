@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="35px" viewBox="0 0 25 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>phone</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Web-Style" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1394.000000, -974.000000)">
+            <g id="phone" transform="translate(1394.000000, 974.000000)">
+                <rect id="Rectangle" stroke="#F0F4FF" stroke-width="3" x="1.5" y="1.5" width="22" height="32" rx="5"></rect>
+                <path d="M9.43369286,28.0039027 L15.0518892,28.0006796 C15.052354,28.0006793 15.0527309,28.0010558 15.0527312,28.0015206 C15.0527315,28.0019849 15.0523557,28.0023617 15.0518914,28.0023626 C14.3973232,28.0036682 13.8673823,28.5346672 13.8673823,29.1892366 L13.8673823,30.5 C13.8673823,31.3284271 13.1958094,32 12.3673823,32 C11.5389552,32 10.8673823,31.3284271 10.8673823,30.5 L10.8673823,29.4336931 C10.8673823,28.64319 10.2265529,28.0023607 9.43604987,28.0023607 C9.43526363,28.0023607 9.43447739,28.0023613 9.43369115,28.0023626 C9.43326586,28.0023633 9.43292167,28.0027086 9.43292237,28.0031339 C9.43292307,28.0035589 9.4332679,28.003903 9.43369286,28.0039027 Z" id="Rectangle-Copy-2" fill="#F0F4FF" transform="translate(12.118200, 30.000000) scale(1, -1) translate(-12.118200, -30.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
